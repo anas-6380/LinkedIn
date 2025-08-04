@@ -2,6 +2,8 @@
 
 A professional networking web application built with MongoDB, Express.js, React.js, and Node.js, replicating core functionality of LinkedIn including authentication, posts, profiles, and connections.
 
+LIVE LINK : https://linkedin-frontend-1aup.onrender.com/login
+
 
 
 
