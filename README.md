@@ -135,7 +135,8 @@ Publish Directory: dist
 import { UserProvider } from "./context/UserContext"
 match filename casing exactly.
 
-🧪 Troubleshooting Tips
+**🧪 Troubleshooting Tips**
+
 🔹Case-sensitivity errors: rename filenames using git mv to ensure Git tracks the change (especially for UserContext.jsx).
 
 🔹Sign-up issues: check backend logs for errors (e.g. duplicate email, validation failure) and display real error messages in frontend using console.log(err.response.data).
@@ -144,7 +145,8 @@ match filename casing exactly.
 
 🔹Port in use: if EADDRINUSE occurs locally, either kill the process or change the port.
 
-🧩 Additional Enhancements
+**🧩 Additional Enhancements**
+
 🔹Add likes, comments, or real-time updates using Socket.io
 
 🔹Integrate search, filters, or recommendation systems
@@ -153,7 +155,8 @@ match filename casing exactly.
 
 🔹Deploy with domain names and HTTPS support
 
-📬 Feedback & Contribution
+**📬 Feedback & Contribution**
+
 Contributions, bug reports, and feature suggestions are welcome!
 Feel free to create issues or submit pull requests.
 
