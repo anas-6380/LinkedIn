@@ -1,4 +1,5 @@
 🧑‍💼**LinkedIn Clone (MERN Stack)**
+
 A professional networking web application built with MongoDB, Express.js, React.js, and Node.js, replicating core functionality of LinkedIn including authentication, posts, profiles, and connections.
 
 
@@ -49,16 +50,11 @@ LinkedIn/
     
     │   ├── App.jsx
 
-    
     │   └── main.jsx
-    
     
     ├── public/
     
-
-    
     ├── vite.config.js
-    
     
     └── package.json
     
