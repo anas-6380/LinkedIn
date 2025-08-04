@@ -15,14 +15,14 @@ let app=express()
 let server=http.createServer(app)
 export const io=new Server(server,{
     cors:({
-        origin:"srv-d280utmuk2gs73eob2kg",
+        origin:"https://linkedin-frontend-1aup.onrender.com",
         credentials:true
     })
 })
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"srv-d280utmuk2gs73eob2kg",
+    origin:"https://linkedin-frontend-1aup.onrender.com",
     credentials:true
 }))
 let port=process.env.PORT || 5000
