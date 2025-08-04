@@ -19,25 +19,52 @@ A professional networking web application built with MongoDB, Express.js, React.
 🔸Frontend built with React and Vite for fast hot-reloads and optimized production build
 
 **📂 Project Structure**
+
 LinkedIn/
+
 ├── backend/
+
 │   ├── controllers/        // auth & post logic
+
 │   ├── models/             // User.js, Post.js
+
 │   ├── routes/             // auth.routes.js & post.routes.js
+
 │   ├── config/             // token.js (JWT config)
+
 │   ├── index.js            // server entry point
+
 │   └── .env                // config variables (MONGODB_URL, JWT_SECRET)
+
 └── frontend/
+
     ├── src/
     │   ├── pages/          // Login, Register, Home, Profile
+    
     │   ├── components/     // Navbar, Feed, PostCard, etc.
+    
     │   ├── context/        // UserContext.jsx (global auth state)
+    
     │   ├── assets/         // Logo, icons, images
+    
     │   ├── App.jsx
+
+    
     │   └── main.jsx
+    
+    
     ├── public/
+    
+
+    
     ├── vite.config.js
+    
+    
     └── package.json
+    
+    
+    
+
 
 
 
