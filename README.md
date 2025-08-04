@@ -5,6 +5,7 @@ A professional networking web application built with MongoDB, Express.js, React.
 
 
 **🚀 Features**
+
 🔸User Authentication with email, username, JWT-based sign-up/login
 
 🔸Create, view, and delete posts (text content + images via Cloudinary)
